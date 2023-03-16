@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test verbose="2" preserve-order="true" name="Pixel 6">
+        <parameter name="deviceName" value="Pixel_6"></parameter>
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="udid" value="emulator-5554"></parameter>
+        <parameter name="systemPort" value="10000"></parameter>
+        <parameter name="chromeDriverPort" value="11000"></parameter>
+        <classes>
+            <class name="com.qa.runners.MyPixel6TestNGRunnerTest">
+               <!-- <methods>
+                    <include name="TC001_invalid_UserName"/>
+                    <include name="TC002_invalid_Password"/>
+                    <include name="TC003_valid_UserName_Password"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+   <!-- <test verbose="2" preserve-order="true" name="Pixel 3">
+        <parameter name="deviceName" value="Pixel_3"></parameter>
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="udid" value="emulator-5556"></parameter>
+        <parameter name="systemPort" value="10001"></parameter>
+        <parameter name="chromeDriverPort" value="11001"></parameter>
+        <classes>
+            <class name="com.qa.runners.MyPixel3TestNGRunnerTest">
+                &lt;!&ndash; <methods>
+                     <include name="TC001_invalid_UserName"/>
+                     <include name="TC002_invalid_Password"/>
+                     <include name="TC003_valid_UserName_Password"/>
+                 </methods>&ndash;&gt;
+            </class>
+        </classes>
+    </test>-->
+</suite>

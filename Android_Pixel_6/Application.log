@@ -1,0 +1,54 @@
+[Android_Pixel_6 INFO ] 2023-03-01 18:00:00.598 ServerManager:23 - starting appium server
+[Android_Pixel_6 INFO ] 2023-03-01 18:00:11.428 ServerManager:32 - Appium server started
+[Android_Pixel_6 INFO ] 2023-03-01 18:00:11.457 DriverManager:28 - initializing Appium driver
+[Android_Pixel_6 INFO ] 2023-03-01 18:00:11.486 PropertyManager:17 - loading config properties
+[Android_Pixel_6 INFO ] 2023-03-01 18:00:11.491 CapabilitiesManager:21 - getting capabilities
+[Android_Pixel_6 INFO ] 2023-03-01 18:00:11.496 CapabilitiesManager:38 - appUrl isC:\Users\artdsktp44user\IdeaProjects\AppiumCucumberSample-TestNg\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:16.032 DriverManager:40 - Driver is initialized
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:21.578 BasePage:71 - login with standard_user
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:22.796 BasePage:71 - password is secret_sauce
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:23.404 BasePage:54 - press login button
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:32.043 BasePage:71 - login with invalidUsername
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:33.197 BasePage:71 - password is secret_sauce
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:33.776 BasePage:54 - press login button
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:34.627 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:38.177 BasePage:71 - login with standard_user
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:39.398 BasePage:71 - password is invalidPassword
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:40.471 BasePage:54 - press login button
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:41.363 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:44.995 BasePage:71 - login with locked_out_user
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:46.626 BasePage:71 - password is secret_sauce
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:47.686 BasePage:54 - press login button
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:48.457 BasePage:97 - error text is - Sorry, this user has been locked out.
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:52.198 BasePage:71 - login with standard_user
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:53.827 BasePage:71 - password is secret_sauce
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:54.406 BasePage:54 - press login button
+[Android_Pixel_6 INFO ] 2023-03-01 18:01:55.940 BasePage:97 - product page title is - PRODUCTS
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:00.255 BasePage:71 - login with standard_user
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:01.977 BasePage:71 - password is secret_sauce
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:03.056 BasePage:54 - press login button
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:07.007 BasePage:97 - product title is: Sauce Labs Bolt T-ShirtSauce Labs Bolt T-Shirt
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:10.908 BasePage:71 - login with standard_user
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:12.571 BasePage:71 - password is secret_sauce
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:13.621 BasePage:54 - press login button
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:15.329 BasePage:54 - press Sauce Labs Backpack link
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:16.650 BasePage:97 - title is: Sauce Labs Backpack
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:16.757 BasePage:97 - description is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:16.824 BasePage:97 - price is: $29.99
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:20.529 BasePage:71 - login with standard_user
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:21.865 BasePage:71 - password is secret_sauce
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:22.924 BasePage:54 - press login button
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:24.420 BasePage:54 - press filter button
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:25.267 BasePage:97 - filter title is - Sort items by...
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:29.032 BasePage:71 - login with problem_user
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:30.659 BasePage:71 - password is secret_sauce
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:31.726 BasePage:54 - press login button
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:35.893 BasePage:97 - product title is: Sauce Labs Bolt T-ShirtSauce Labs Bolt T-Shirt
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:39.606 BasePage:71 - login with problem_user
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:41.265 BasePage:71 - password is secret_sauce
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:41.820 BasePage:54 - press login button
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:43.592 BasePage:54 - press Sauce Labs Backpack link
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:45.005 BasePage:97 - title is: Sauce Labs Bike Light
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:45.113 BasePage:97 - description is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:45.173 BasePage:97 - price is: $9.99
+[Android_Pixel_6 INFO ] 2023-03-01 18:02:47.156 VideoManager:35 - video path: Android_Pixel_6\Videos\Validate product info on Product Details page.mp4

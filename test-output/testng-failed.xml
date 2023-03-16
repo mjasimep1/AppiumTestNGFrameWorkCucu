@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Pixel 6(failed)">
+    <parameter name="chromeDriverPort" value="11000"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="deviceName" value="Pixel_6"/>
+    <parameter name="systemPort" value="10000"/>
+    <classes>
+      <class name="com.qa.runners.MyPixel6TestNGRunnerTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="scenario" invocation-numbers="9"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.qa.runners.MyPixel6TestNGRunnerTest -->
+    </classes>
+  </test> <!-- Pixel 6(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
